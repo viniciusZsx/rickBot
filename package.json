@@ -1,0 +1,41 @@
+{
+  "name": "rickmd",
+  "version": "0.0.2",
+  "description": "A smallest bot of WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/start.js",
+    "build": "tsc",
+    "dev": "ts-node-dev ./src/start.ts",
+    "test": "ts-node-dev ./src/test/index.ts"
+  },
+  "keywords": [],
+  "author": "vinicius",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@hapi/boom": "^9.1.4",
+    "ansi-regex": ">=5.0.1",
+    "axios": "^0.26.1",
+    "correios-brasil": "^2.2.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "horario": "^1.0.0",
+    "jsdom": "^19.0.0",
+    "moment-timezone": "^0.5.34",
+    "performance-now": "^2.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "readme-md-generator": "^1.0.0",
+    "screenshot-web": "^0.0.1",
+    "web-screenshot.js": "^1.0.3",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0",
+    "ytdownloader.js": "^1.0.9"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/node": "^17.0.21",
+    "@types/yt-search": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
